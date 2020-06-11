@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@model Pet
+<link rel="stylesheet" href="~/css/win.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Barrio&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+<div class="container">
+<img style="width: 900px;" src="https://s3.amazonaws.com/blogs.comedycentral.com-production/wp-content/uploads/sites/58/2016/04/Celebration.gif">
+</div>
+
+<h1>You Won!</h1>
+<h3>Final Stats:</h3>
+<ul class=image>
+<li> <strong style="text-decoration:underline">Elves</strong>: @Model.Happiness </li>
+<li> <strong style="text-decoration:underline">Flames</strong>: @Model.Meals </li>
+<li> <strong style="text-decoration:underline">Potions</strong>: @Model.Fullness</li>
+<li> <strong style="text-decoration:underline">Health</strong>: @Model.Energy</li>
+</ul>
+<a href="/reset" class="btn btn-outline-warning" id="button" role="button">Play again.</a>

@@ -1,0 +1,84 @@
+.container{
+    background:url("https://cdn.wallpapername.com/1680x1050/20181130/5c01a043a39f2.jpg");
+    height: 970px;
+    color: white;
+    vertical-align:top;
+}
+.center{
+    text-align:center;
+    font-family: 'Barrio', cursive;
+    font-size: 70px;
+}
+.rules
+{
+    display:inline-block;
+}
+.image {
+    line-height: 1.5em;
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4621/treehouse-marker.png);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 20px;
+    background: hsla(0, 30%, 87%, 0.5);
+    border-radius: 20px;
+    width: 450px;
+}
+.message
+{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+}
+.msg
+{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 22px;
+    background: hsla(0, 30%, 87%, 0.5);
+    border-radius: 15px;
+    height: 130px;
+    color:black;
+
+}
+.action
+{
+    display: inline-block;
+    width: 40%;
+    color:white;
+}
+pre
+{
+    color:white;
+    /* text-align: center; */
+    font-family: 'Major Mono Display', monospace;
+    font-size: 12.5px;
+}
+.stats{
+    font-family: 'Barrio', cursive;
+    font-size: 50px;
+    color:white;
+
+
+}
+
+#button{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 30px;
+}
+
+#button:hover{
+    font-family: 'Barrio', cursive;
+    background-color:teal;
+    color: yellow;
+    font-size: 40px;
+}
+#rules{
+font-size: 15px;
+background: hsla(0, 30%, 87%, 0.5);
+width: 599px;
+border-radius: 10px;
+color:black;
+height: 240px;
+}
+
+h1{
+    font-family: 'Barrio', cursive;
+}

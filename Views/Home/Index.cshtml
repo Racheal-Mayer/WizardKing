@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model Pet
+<link rel="stylesheet" href="~/css/home.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Barrio&family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+    <h1 class="center">THE GRAND WIZARD KING</h1>
+    <pre>"I'm a wizard and a king... A wizard-king, yes... No, I'm not king of wizards, I'm a king that happens to be a wizard."</pre>
+<div class="rules">
+    <br><br>
+<h1>Rules of the game:</h1>
+<pre id="rules" >
+
+  <strong style="text-decoration:underline">Win</strong> when all of Elves are dead.
+  <strong style="text-decoration:underline">Lose</strong> when you are out of potions, flames, or health.
+
+<strong style="text-decoration:underline">Surge:</strong> Attacks elves using health points.
+<strong style="text-decoration:underline">Gluttony:</strong> Using one potion randomly ups health.
+<strong style="text-decoration:underline">Flame Strike:</strong> 25% chance of landing a flame throw
+that does high damage, swiped throws take out one elf.
+<strong style="text-decoration:underline">Curse:</strong> High chance of killing elves, with a cost.
+</pre>
+</div>
+<div class="message">
+
+<h1>Attack:</h1>
+
+    <a href="/feed" class="btn btn-outline-success" id="button" role="button">Surge</a>
+    <a href="/play" class="btn btn-outline-success" id="button" role="button">Flame Strike</a>
+    <a href="/work" class="btn btn-outline-success" id="button" role="button">Gluttony</a>
+    <a href="/sleep" class="btn btn-outline-success" id="button" role="button">Curse</a> <br> <br>
+        <p class="msg">@Model.Message</p> <br>
+
+</div>
+
+
+<div class="action">
+<h4 class="stats">Current Stats:</h4>
+<ul class=image>
+    <li> <strong style="text-decoration:underline">Elves</strong> still attacking: @Model.Happiness </li>
+    <li> <strong style="text-decoration:underline">Flames</strong> ready to throw: @Model.Meals </li>
+    <li> <strong style="text-decoration:underline">Potions</strong> in bag: @Model.Fullness</li>
+    <li> <strong style="text-decoration:underline">Health</strong> Points: @Model.Energy</li>
+</ul>
+        <a href="/reset" class="btn btn-outline-success" id="button" role="button">Start Over.</a>
+</div>
+
+
+</div>

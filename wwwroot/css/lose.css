@@ -1,0 +1,24 @@
+.container
+{
+    background: url("https://wallup.net/wp-content/uploads/2018/10/04/338343-south-park-funny-kenny-mccormick-clean.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 970px;
+    color: white;
+}
+h1{
+    font-family: 'Barrio', cursive;
+    font-size: 60px;
+}
+
+#button{
+    font-family: 'Major Mono Display', monospace;
+    border:none;
+    color: rgb(251,102,4);  
+}
+
+#button:hover{
+    font-family: 'Major Mono Display', monospace;
+    background-color:rgb(251,102,4);
+    color: black;
+}

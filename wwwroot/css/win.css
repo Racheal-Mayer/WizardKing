@@ -1,0 +1,32 @@
+.container{
+    text-align:center;
+}
+
+.image {
+    list-style: none;
+    font-family: 'Major Mono Display', monospace;
+    font-size: 30px;
+    
+}
+
+h1{
+    font-family: 'Barrio', cursive;
+    font-size: 50px;
+    color:teal;
+}
+
+h3{
+    font-family: 'Barrio', cursive;
+}
+
+#button{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 30px;
+}
+
+#button:hover{
+    font-family: 'Barrio', cursive;
+    background-color:teal;
+    color: yellow;
+    font-size: 50px;
+}
